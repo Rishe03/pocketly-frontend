@@ -1,0 +1,32 @@
+@import '@fontsource/poppins/400.css';
+@import '@fontsource/poppins/500.css';
+@import '@fontsource/poppins/600.css';
+@import '@fontsource/poppins/700.css';
+@import '@fontsource/poppins/900.css';
+@import '@fontsource/poppins/300.css';
+@import '@fontsource/inter/500.css';
+@import '@fontsource/inter/700.css';
+
+:root {
+  --navy-900: #0b153b;
+  --navy-700: #153a6e;
+  --navy-500: #2f5d8c;
+  --bg: #f2f5f8;
+  --surface: #ffffff;
+  --text: #0b153b;
+  --text-muted: rgba(11, 21, 59, 0.8);
+  --border: rgba(128, 128, 128, 0.3);
+  --radius: 10px;
+  --radius-header: 50px;
+  --gradient-header: linear-gradient(180deg, var(--navy-900), var(--navy-700) 75%, var(--navy-500));
+  --gradient-button: linear-gradient(90deg, var(--navy-900), var(--navy-700) 66%);
+  --font: 'Poppins', system-ui, sans-serif;
+  --font-num: 'Inter', system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text);
+}
